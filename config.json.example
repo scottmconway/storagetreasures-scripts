@@ -1,0 +1,77 @@
+{
+    "logging": {
+        "log_level": 20,
+        "gotify": {
+            "app_token": "",
+            "server_url": "",
+            "extras": {
+                "client::display": {
+                    "contentType": "text/markdown"
+                }
+            }
+        }
+    },
+    "auth_info": {},
+    "seen_listings_filename": "seen_listings.json",
+    "saved_queries": {
+        "hollywood_local": {
+            "search_type": "zipcode",
+            "search_term": "90210",
+            "search_radius_miles": 30
+        },
+        "hollywood_open_filters": {
+            "search_type": "zipcode",
+            "search_term": "90210",
+            "search_radius_miles": 30,
+            "filter_types": [
+                "lien unit",
+                "non-lien unit/manager special",
+                "charity unit"
+            ],
+            "filter_categories": [
+                "appliances",
+                "arms",
+                "books",
+                "boxes",
+                "cabinets-and-shelves",
+                "clothing-and-shoes",
+                "collectibles",
+                "computers",
+                "dishes-and-kitchenware",
+                "documents-and-files",
+                "electronics",
+                "food-and-beverages",
+                "health-and-wellness",
+                "heavy-equipment",
+                "household-furniture",
+                "jewelry",
+                "lamps",
+                "mattress-and-bedding",
+                "memorabilia",
+                "mirrors",
+                "motor-vehicles-and-parts",
+                "movies-music-and-books",
+                "new-merchandise",
+                "office-equipment",
+                "old-stuff",
+                "personal-effects",
+                "sports-and-outdoors",
+                "tools-and-supplies",
+                "toys-baby-and-games",
+                "wall-art"
+            ]
+        },
+        "hollywood_lien_lamps": {
+            "search_type": "zipcode",
+            "search_term": "90210",
+            "search_radius_miles": 30,
+            "filter_types": [
+                "lien unit"
+            ],
+            "filter_categories": [
+                "lamps"
+            ],
+            "unit_contents": "lamp (searched in description)"
+        }
+    }
+}
